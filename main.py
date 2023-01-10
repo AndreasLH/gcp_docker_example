@@ -26,5 +26,6 @@ if __name__ == '__main__':
     print(
         f"Classification report for classifier {clf}:\n"
         f"{metrics.classification_report(y_test, predicted)}\n"
+    print("hello")
     )
 
